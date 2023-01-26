@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajos</title>
+    <link rel="stylesheet" href="styleexpand.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674749818/Rectificaciones%20Curuzu/logo_tevlkr.png"> </a>
+            <div class="nav-links"  id="navLinks" >
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    
+                <ul>
+                    <li> <a href="index.html"><b>Inicio</b> </a></li>
+                <li><a href="Inicio.html"><b>Servicios</b></a></li>
+                <li><a href="Maquinaria.html"><b>Maquinarias</b></a></li>
+                <li><a href="Trabajos.html"><b>Trabajos</b></a></li>
+                
+            </ul>
+            
+        </div>
+        <i class="fa fa-bars" onclick="showdeMenu()"></i>
+        
+
+        </nav>
+      
+        <div class="text-box">
+
+
+<div><a href="https://wa.me/3774425747" class="hero-btn">Contactanos</a> </div>
+
+
+        </div>
+
+</section>
+<h1>Trabajos Realizados</h1>
+
+<div class="full-img" id="fullImgBox">
+    <img src="img trabajos ter/1 .jpeg " id="fullImg">
+<span onclick="closefullImg()">X</span>
+</div>
+
+<div class="img-galery">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)"> 
+<img   src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg " onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+<img  src="https://res.cloudinary.com/dwedhmgsu/image/upload/v1674748368/Rectificaciones%20Curuzu/1_9_jipbbs.jpg" onclick="openfullImg(this.src)">
+
+
+
+</div>
+
+<div><a href="index.html" class="hero-btnn">Inicio</a> </div>
+
+
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox")
+    var fullImg = document.getElementById("fullImg")
+
+function openfullImg(pic){  
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic;
+}
+
+function closefullImg(){
+    fullImgBox.style.display ="none";
+}
+</script>
+
+
+
+ 
+</body>
+</html>
+
